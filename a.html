@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="a.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calc">
+        <fieldset>
+            <legend>Calculadora Online</legend><br>
+    
+            <div class="v1">
+                <label for="primeiro">Primeiro Numero</label>
+                <input id="primeiro" type="number" placeholder="Digite aqui">
+            </div><br>
+    
+            <div class="v2">
+                <label for="segundo">Segundo Numero</label>
+                <input id="segundo" type="number" placeholder="Digite aqui">
+            </div><br>
+    
+            <button onclick="somar()">Somar</button>
+            <button onclick="subtrair()">subtrair</button>
+            <button onclick="dividir()">dividir</button>
+            <button onclick="multi()">multiplicar</button>
+           
+            <h3 >Resultado:</h3><p id="resultado"></p>
+       </fieldset>
+    </div>
+   <script src="a.js"></script>
+</body>
+</html>
